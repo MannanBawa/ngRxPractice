@@ -2,4 +2,8 @@
 <button (click)="increment()" type="increment">Increment</button>
 <button (click)="reset()" type="reset">Reset</button>
 
-<h3>Current Count: {{count$ | async}} </h3>
+<h3>Red Count: {{count.redState}} </h3>
+<h3>Blue Count: {{count.blueState}} </h3>
+<h3>Green Count: {{count.greenState}} </h3>
+
+<h3>Purple Count: {{purpCount$ | async}} </h3>
